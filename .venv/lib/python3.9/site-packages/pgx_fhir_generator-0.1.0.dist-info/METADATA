@@ -1,6 +1,0 @@
-Metadata-Version: 2.4
-Name: pgx-fhir-generator
-Version: 0.1.0
-Summary: Synthetic PGx input and FHIR report generator
-Requires-Python: >=3.9
-Requires-Dist: pydantic>=2.6
