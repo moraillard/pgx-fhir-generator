@@ -1,0 +1,2 @@
+[console_scripts]
+pgx-fhir = pgx_fhir.cli:main

@@ -1,0 +1,36 @@
+{
+  "patient": {
+    "patient_id": "P6305",
+    "given_name": "Sofia",
+    "family_name": "Soto",
+    "birth_date": "1991-10-09",
+    "sex": "female"
+  },
+  "specimen": {
+    "specimen_id": "S1791",
+    "patient_id": "P6305",
+    "specimen_type": "blood",
+    "collected_on": "2026-02-01"
+  },
+  "results": [
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*2",
+      "phenotype": "intermediate metabolizer",
+      "activity_score": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*4",
+      "phenotype": "intermediate metabolizer",
+      "activity_score": 1.0
+    },
+    {
+      "gene": "SLCO1B1",
+      "diplotype": "*1/*5",
+      "phenotype": "decreased function",
+      "activity_score": null
+    }
+  ],
+  "ruleset_version": "0.1"
+}

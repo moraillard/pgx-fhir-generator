@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgx-fhir-generator"
+version = "0.1.0"
+description = "Synthetic PGx input and FHIR report generator"
+requires-python = ">=3.9"
+dependencies = ["pydantic>=2.6"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+pgx-fhir = "pgx_fhir.cli:main"
