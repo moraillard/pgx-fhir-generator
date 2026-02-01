@@ -18,3 +18,8 @@ htmlcov/
 # OS / editor
 .DS_Store
 .vscode/
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
