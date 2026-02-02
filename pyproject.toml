@@ -17,3 +17,8 @@ where = ["src"]
 
 [project.scripts]
 pgx-fhir = "pgx_fhir.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+]
